@@ -1,0 +1,791 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6c482329f67e53c645a05660d40f2cfe",
+    "packages": [
+        {
+            "name": "thebbapp/content-source",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-content-source.git",
+                "reference": "10e11bb00a49347ccb20ebc029c434ead9ea6371"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-content-source/zipball/10e11bb00a49347ccb20ebc029c434ead9ea6371",
+                "reference": "10e11bb00a49347ccb20ebc029c434ead9ea6371",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.2.24"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\ContentSource\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Content source interface and functions for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-content-source/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:31+00:00"
+        },
+        {
+            "name": "thebbapp/content-source-bbpress",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-content-source-bbpress.git",
+                "reference": "aa5f6abcfa548b02ad24887b03bda9e32f22d4aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-content-source-bbpress/zipball/aa5f6abcfa548b02ad24887b03bda9e32f22d4aa",
+                "reference": "aa5f6abcfa548b02ad24887b03bda9e32f22d4aa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.24",
+                "thebbapp/content-source-wordpress-base": "0.1.0",
+                "thebbapp/rest-api-bbpress": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\ContentSource\\BbPress\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "BBPress content source implementation for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-content-source-bbpress/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:31+00:00"
+        },
+        {
+            "name": "thebbapp/content-source-wordpress",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-content-source-wordpress.git",
+                "reference": "69816dab0b9b465aadf125e650935480a50dc942"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-content-source-wordpress/zipball/69816dab0b9b465aadf125e650935480a50dc942",
+                "reference": "69816dab0b9b465aadf125e650935480a50dc942",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.24",
+                "thebbapp/content-source-wordpress-base": "0.1.0",
+                "thebbapp/rest-api-wordpress": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\ContentSource\\WordPress\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "WordPress content source implementation for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-content-source-wordpress/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:31+00:00"
+        },
+        {
+            "name": "thebbapp/content-source-wordpress-base",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-content-source-wordpress-base.git",
+                "reference": "4324c97359fca085a162ca9026fc7c4f685afba3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-content-source-wordpress-base/zipball/4324c97359fca085a162ca9026fc7c4f685afba3",
+                "reference": "4324c97359fca085a162ca9026fc7c4f685afba3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.2.24",
+                "thebbapp/content-source": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\ContentSource\\WordPressBase\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Base WordPress content source interface and functions for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-content-source-wordpress-base/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:31+00:00"
+        },
+        {
+            "name": "thebbapp/push-service",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-push-service.git",
+                "reference": "eab85fb8eedd0ef537d1ae3a62bc655e9593952e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-push-service/zipball/eab85fb8eedd0ef537d1ae3a62bc655e9593952e",
+                "reference": "eab85fb8eedd0ef537d1ae3a62bc655e9593952e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.24",
+                "thebbapp/content-source": "0.1.0",
+                "thebbapp/result": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\PushService\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Push notification interface and functions for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-push-service/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:31+00:00"
+        },
+        {
+            "name": "thebbapp/push-service-bbpress",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-push-service-bbpress.git",
+                "reference": "5d99024ab1a1bfa3f3374c516f14d1c7ddf51339"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-push-service-bbpress/zipball/5d99024ab1a1bfa3f3374c516f14d1c7ddf51339",
+                "reference": "5d99024ab1a1bfa3f3374c516f14d1c7ddf51339",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.24",
+                "thebbapp/push-service-wordpress-base": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\PushService\\BbPress\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "BBPress push notification service implementation for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-push-service-bbpress/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:31+00:00"
+        },
+        {
+            "name": "thebbapp/push-service-wordpress",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-push-service-wordpress.git",
+                "reference": "b11fc4c1befceaccb27c9833a8b831b8e2439dbb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-push-service-wordpress/zipball/b11fc4c1befceaccb27c9833a8b831b8e2439dbb",
+                "reference": "b11fc4c1befceaccb27c9833a8b831b8e2439dbb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.24",
+                "thebbapp/push-service-wordpress-base": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\PushService\\WordPress\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "WordPress push notification service implementation for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-push-service-wordpress/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:32+00:00"
+        },
+        {
+            "name": "thebbapp/push-service-wordpress-base",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-push-service-wordpress-base.git",
+                "reference": "d70af6c823fd7768fad560ad9b8d2f76f695e605"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-push-service-wordpress-base/zipball/d70af6c823fd7768fad560ad9b8d2f76f695e605",
+                "reference": "d70af6c823fd7768fad560ad9b8d2f76f695e605",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.2.24",
+                "thebbapp/content-source": "0.1.0",
+                "thebbapp/push-service": "0.1.0",
+                "thebbapp/result": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\PushService\\WordPressBase\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Base WordPress push notification service interfaces and functions for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-push-service-wordpress-base/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:32+00:00"
+        },
+        {
+            "name": "thebbapp/push-transport-apple",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-push-transport-apple.git",
+                "reference": "2fa3f36c265e053c8cce94f4c7539c4f9ec5ab53"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-push-transport-apple/zipball/2fa3f36c265e053c8cce94f4c7539c4f9ec5ab53",
+                "reference": "2fa3f36c265e053c8cce94f4c7539c4f9ec5ab53",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-openssl": "*",
+                "php": ">=7.2.24",
+                "thebbapp/content-source": "0.1.0",
+                "thebbapp/push-service": "0.1.0",
+                "thebbapp/result": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\PushService\\PushTransport\\Apple\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Apple push notification implementation for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-push-transport-apple/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:32+00:00"
+        },
+        {
+            "name": "thebbapp/push-transport-firebase",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-push-transport-firebase.git",
+                "reference": "27cf26237e1e9b7443e118cbf163f46c0028c97b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-push-transport-firebase/zipball/27cf26237e1e9b7443e118cbf163f46c0028c97b",
+                "reference": "27cf26237e1e9b7443e118cbf163f46c0028c97b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=7.2.24",
+                "thebbapp/content-source": "0.1.0",
+                "thebbapp/push-service": "0.1.0",
+                "thebbapp/result": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\PushService\\PushTransport\\Firebase\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Firebase push notification implementation for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-push-transport-firebase/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:32+00:00"
+        },
+        {
+            "name": "thebbapp/rest-api",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-rest-api.git",
+                "reference": "46c3cfd6d40468a4c8737a11dea785fbc22a8c81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-rest-api/zipball/46c3cfd6d40468a4c8737a11dea785fbc22a8c81",
+                "reference": "46c3cfd6d40468a4c8737a11dea785fbc22a8c81",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.24"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\RestAPI\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "REST API base functions required for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-rest-api/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:32+00:00"
+        },
+        {
+            "name": "thebbapp/rest-api-bbpress",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-rest-api-bbpress.git",
+                "reference": "59659cefc6a302ccac88bd1283355a28110eb88d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-rest-api-bbpress/zipball/59659cefc6a302ccac88bd1283355a28110eb88d",
+                "reference": "59659cefc6a302ccac88bd1283355a28110eb88d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.2.24",
+                "thebbapp/rest-api-wordpress-base": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\RestAPI\\BbPress\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "BBPress REST API implementation for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-rest-api-bbpress/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:32+00:00"
+        },
+        {
+            "name": "thebbapp/rest-api-wordpress",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-rest-api-wordpress.git",
+                "reference": "85c7edae6be6fd5faedf360d4c007d48a7cab477"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-rest-api-wordpress/zipball/85c7edae6be6fd5faedf360d4c007d48a7cab477",
+                "reference": "85c7edae6be6fd5faedf360d4c007d48a7cab477",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.24",
+                "thebbapp/rest-api-wordpress-base": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\RestAPI\\WordPress\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Enhanced WordPress REST API implementation for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-rest-api-wordpress/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:32+00:00"
+        },
+        {
+            "name": "thebbapp/rest-api-wordpress-base",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-rest-api-wordpress-base.git",
+                "reference": "26a481eb7d236e8846ab77a0e234731a045ce4f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-rest-api-wordpress-base/zipball/26a481eb7d236e8846ab77a0e234731a045ce4f0",
+                "reference": "26a481eb7d236e8846ab77a0e234731a045ce4f0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.24",
+                "thebbapp/rest-api": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\RestAPI\\WordPressBase\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "WordPress REST API base functions required for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-rest-api-wordpress-base/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:32+00:00"
+        },
+        {
+            "name": "thebbapp/result",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-result.git",
+                "reference": "4141fa2cca368e29abf354625745657107dbe08a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-result/zipball/4141fa2cca368e29abf354625745657107dbe08a",
+                "reference": "4141fa2cca368e29abf354625745657107dbe08a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.24"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\Result\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Minimal result monad implementation for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-result/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:32+00:00"
+        },
+        {
+            "name": "thebbapp/smart-banner",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-smart-banner.git",
+                "reference": "1fc367c471eb79536b64e88576d214f93fc922e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-smart-banner/zipball/1fc367c471eb79536b64e88576d214f93fc922e3",
+                "reference": "1fc367c471eb79536b64e88576d214f93fc922e3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.24"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\SmartBanner\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Smart app banner interface and functions for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-smart-banner/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:33+00:00"
+        },
+        {
+            "name": "thebbapp/smart-banner-apple",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-smart-banner-apple.git",
+                "reference": "3b52cef2546458a263efd06d5339a26209de5880"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-smart-banner-apple/zipball/3b52cef2546458a263efd06d5339a26209de5880",
+                "reference": "3b52cef2546458a263efd06d5339a26209de5880",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.24",
+                "thebbapp/smart-banner": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\SmartBanner\\Apple\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Apple smart app banner implementation for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-smart-banner-apple/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:33+00:00"
+        },
+        {
+            "name": "thebbapp/smart-banner-google-play",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-smart-banner-google-play.git",
+                "reference": "98676a681900b1b1ce1daa38b1a4d76beddd08c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-smart-banner-google-play/zipball/98676a681900b1b1ce1daa38b1a4d76beddd08c5",
+                "reference": "98676a681900b1b1ce1daa38b1a4d76beddd08c5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.24",
+                "thebbapp/smart-banner": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\SmartBanner\\GooglePlay\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "description": "Google Play smart app banner implementation for BbApp.",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-smart-banner-google-play/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T17:42:33+00:00"
+        },
+        {
+            "name": "thebbapp/wp-basic-auth",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thebbapp/php-lib-bb-app-wp-basic-auth.git",
+                "reference": "01314f169982e04e6a40515ccf28d0c900cc2e3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thebbapp/php-lib-bb-app-wp-basic-auth/zipball/01314f169982e04e6a40515ccf28d0c900cc2e3a",
+                "reference": "01314f169982e04e6a40515ccf28d0c900cc2e3a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BbApp\\WPBasicAuth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Basic Authentication handler for the JSON API, used for development and debugging purposes",
+            "support": {
+                "source": "https://github.com/thebbapp/php-lib-bb-app-wp-basic-auth/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://thebbapp.com/donate",
+                    "type": "paypal"
+                }
+            ],
+            "time": "2025-12-14T14:29:09+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.2.24",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-curl": "*"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

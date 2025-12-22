@@ -1,0 +1,31 @@
+{
+    "name": "thebbapp/wp-plugin",
+    "description": "BbApp is a native mobile application with push alerts, instant loading and offline mode for WordPress. Also works with BBPress.",
+    "type": "wordpress-plugin",
+    "license": "AGPL-3.0-or-later",
+    "require": {
+        "php": ">=7.2.24",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-curl": "*",
+        "thebbapp/content-source": "0.1.0",
+        "thebbapp/content-source-wordpress-base": "0.1.0",
+        "thebbapp/content-source-wordpress": "0.1.0",
+        "thebbapp/content-source-bbpress": "0.1.0",
+        "thebbapp/push-service": "0.1.0",
+        "thebbapp/push-service-wordpress-base": "0.1.0",
+        "thebbapp/push-service-wordpress": "0.1.0",
+        "thebbapp/push-service-bbpress": "0.1.0",
+        "thebbapp/push-transport-apple": "0.1.0",
+        "thebbapp/push-transport-firebase": "0.1.0",
+        "thebbapp/rest-api": "0.1.0",
+        "thebbapp/rest-api-wordpress-base": "0.1.0",
+        "thebbapp/rest-api-wordpress": "0.1.0",
+        "thebbapp/rest-api-bbpress": "0.1.0",
+        "thebbapp/smart-banner": "0.1.0",
+        "thebbapp/smart-banner-apple": "0.1.0",
+        "thebbapp/smart-banner-google-play": "0.1.0",
+        "thebbapp/result": "0.1.0",
+        "thebbapp/wp-basic-auth": "0.1.0"
+    }
+}
